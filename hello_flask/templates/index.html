@@ -1,0 +1,8 @@
+{% extends "master.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block body %}
+<h1> It works! </h1>
+<a href="{{ url_for('hello',name='abc') }}"><button>Hello</button></a>
+{% endblock %}
