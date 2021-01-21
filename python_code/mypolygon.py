@@ -29,7 +29,7 @@ def circle(t, r):
 def arc(t, r, angle):
     arc_length = 2 * math.pi * r * angle / 360
     n = int(arc_length / 3) + 1
-    tep_length = arc_length / n
+    step_length = arc_length / n
     step_angle = float(angle) / n
 
     for i in range(n):
@@ -64,4 +64,4 @@ draw(bob, 10, 3)
 # bob.fd(radius)
 # bob.lt(90)
 # bob.pd()	# 落笔
-turtle.mainloop()
+turtle.Screen().mainloop()   # 不关闭窗口
