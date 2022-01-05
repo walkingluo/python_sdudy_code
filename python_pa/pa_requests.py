@@ -9,7 +9,7 @@ base_url = 'http://www.baidu.com/s'
 param = {'wd': 'python'}
 r = requests.get(base_url, params=param)
 print(r.url)
-#webbrowser.open(r.url)
+webbrowser.open(r.url)
 '''
 data = {'firstname':'123', 'lastname':'456'}
 r = requests.post('http://pythonscraping.com/pages/files/processing.php', data=data)

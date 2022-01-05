@@ -2,7 +2,7 @@
 import multiprocessing as mp
 import time
 from urllib.request import urlopen, urljoin
-from bs4 import BeautifulSoupgg
+from bs4 import BeautifulSoup
 import re
 
 base_url = 'https://morvanzhou.github.io/'
